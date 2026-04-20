@@ -21,21 +21,20 @@ It compares empirical covariance estimation with a factor-based covariance struc
 ---
 
 ## Project Structure
-```
-scripts/
-01_download_data.R
-02_prepare_returns.R
-03_markowitz.R
-04_capm_beta.R
-05_sml_plot.R
-06_capm_covariance.R
-07_capm_portfolio.R
-08_run_project.R
 
-data/
-figures/
-report/
-```
+    scripts/
+        01_download_data.R
+        02_prepare_returns.R
+        03_markowitz.R
+        04_capm_beta.R
+        05_sml_plot.R
+        06_capm_covariance.R
+        07_capm_portfolio.R
+        08_run_project.R
+
+    data/
+    figures/
+    report/
 
 ---
 
@@ -70,9 +69,10 @@ report/
 
 ## How to Run
 
-```r
-source("scripts/08_run_project.R")
-```
+    source("scripts/08_run_project.R")
+
+---
+
 ## Author
 
 **Abdoul Sarr**
