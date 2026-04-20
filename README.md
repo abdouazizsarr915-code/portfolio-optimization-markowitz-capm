@@ -4,7 +4,7 @@
 
 This project implements portfolio optimization techniques using both the **Markowitz Mean-Variance framework** and the **Capital Asset Pricing Model (CAPM)**.
 
-It compares the performance of empirical covariance estimation with a factor-based covariance structure derived from CAPM.
+It compares empirical covariance estimation with a factor-based covariance structure derived from CAPM.
 
 ---
 
@@ -21,6 +21,7 @@ It compares the performance of empirical covariance estimation with a factor-bas
 ---
 
 ## Project Structure
+```
 scripts/
 01_download_data.R
 02_prepare_returns.R
@@ -34,25 +35,26 @@ scripts/
 data/
 figures/
 report/
+```
 
 ---
 
 ## Methodology
 
-- **Data**: Daily adjusted prices for 20 S&P 500 stocks and the S&P 500 index  
+- **Data**: Daily adjusted prices for S&P500 stocks and index  
 - **Model 1**: Markowitz mean-variance optimization  
 - **Model 2**: CAPM-based covariance structure  
-- **Performance metric**: Sharpe ratio  
-- **Visualization**: Efficient frontier and Security Market Line  
+- **Metric**: Sharpe ratio  
+- **Visualization**: Efficient Frontier & SML  
 
 ---
 
 ## Results
 
-- The Markowitz portfolio achieves a higher Sharpe ratio than the CAPM-based portfolio  
-- The CAPM portfolio is more constrained due to its single-factor structure  
-- The Efficient Frontier illustrates the trade-off between risk and expected return  
-- The SML allows visual identification of potentially under- and over-valued assets  
+- Markowitz portfolio achieves a higher Sharpe ratio  
+- CAPM portfolio is more constrained (single-factor model)  
+- Efficient Frontier shows risk-return trade-off  
+- SML highlights under/over-valued assets  
 
 ---
 
@@ -66,17 +68,11 @@ report/
 
 ---
 
-## Key Insight
-
-The Markowitz portfolio outperforms the CAPM-based portfolio in terms of Sharpe ratio, suggesting that empirical covariance estimation captures diversification opportunities better than the single-factor CAPM structure.
-
----
-
 ## How to Run
 
 ```r
 source("scripts/08_run_project.R")
 ```
-Author
+## Author
 
-Abdoul Sarr
+**Abdoul Sarr**
