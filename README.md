@@ -24,7 +24,6 @@ This project investigates:
 
 ---
 
-<<<<<<< HEAD
 ## Project Structure
 
     scripts/
@@ -248,4 +247,3 @@ Potential improvements include:
 * Transaction cost modeling
 
 ---
->>>>>>> fd2cde3 (Final clean CAPM vs Markowitz README)
