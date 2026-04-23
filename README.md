@@ -2,8 +2,6 @@
 
 A quantitative investment analysis comparing the classic Markowitz Mean-Variance framework against a CAPM-based factor approach, highlighting the trade-off between performance and portfolio stability.
 
-![Efficient Frontier](figures/efficient_frontier.png)
-
 ---
 
 ## The Problem: Why Do Optimized Portfolios Fail in Practice?
